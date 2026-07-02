@@ -1,0 +1,7 @@
+1.GIT Configuration:
+git config --global user.name "GIT USERNAME eg. "Anandhaqa"
+git config --global user.email "GIT mail eg. "anandhaqa@gmail.com"
+
+
+		
+	
