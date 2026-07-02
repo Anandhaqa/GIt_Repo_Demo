@@ -1,0 +1,500 @@
+   46  git commit
+   47  git log
+   48  git log --oneline
+   49  ls
+   50  touch .gitignore
+   51  ls
+   52  touch .env
+   53  touch testthree.txt testfour.txt
+   54  git status
+   55  git status
+   56  git status
+   57  git status
+   58  git status
+   59  git status
+   60  git status
+   61  git add testfour.txt testthree.txt 
+   62  git commit
+   63  git log --oneline
+   64  cd
+   65  pwd
+   66  cat .gitconfig
+   67  ls
+   68  pwd
+   69  got log --oneline
+   70  git log --oneline
+   71  pwd
+   72  git status
+   73  ls -ls
+   74  ls -la
+   75  git status
+   76  git init
+   77  git status
+   78  git branch
+   79  touch index.html
+   80  git status
+   81  git add .
+   82  git status
+   83  git commit -m "add index file"
+   84  git branch
+   85  git status
+   86  git status
+   87  git add index.html 
+   88  git commit -m "Update Code for Index File"
+   89  git branch
+   90  git branch nav-bar
+   91  git branch
+   92  git checkout nav-bar 
+   93  git branch
+   94  git status
+   95  touch nav-bar.html 
+   96  git status
+   97  git add nav-bar.html 
+   98  git commit -m "Add nav-bat to Code Base"
+   99  git checkout master
+  100  ls
+  101  touch hero-section
+  102  git status
+  103  git add hero-section.html 
+  104  git commit -m "add hero-section into Code Base"
+  105  git status
+  106  git checkout nav-bar 
+  107  git branch
+  108  git checkout master
+  109  git log --oneline
+  110  git checkout nav-bar 
+  111  git log --oneline
+  112  git branch
+  113  git checkout master
+  114  git branch
+  115  git merge nav-bar 
+  116  git status
+  117  git log --oneline
+  118  git branch -d nav-bar 
+  119  git branch
+  120  git checkout -b footer
+  121  git branch
+  122  git status
+  123  git add footer.html 
+  124  git commit -m "Add footer section to Code Base"
+  125  git checkout master
+  126  git branch
+  127  git merge footer
+  128  git branch
+  129  git status
+  130  git add index.html 
+  131  git commit -m "add footer in Index file"
+  132  git status
+  133  git checkout footer
+  134  git branch
+  135  git add index.html 
+  136  git commit -m "update index file with footer code"
+  137  git checkout master
+  138  git status
+  139  git checkout master
+  140  git branch
+  141  git merge footer
+  142  git add .
+  143  git commit -m "merged footer branch"
+  144  history->file.txt
+  145  history-->file.txt
+  146  history>file.txt
+  147  git status
+  148  git add .
+  149  git commit -m "Add History of Codes"
+  150  git status
+  151  git branch
+  152  git status
+  153  git add index.html 
+  154  git diff --staged
+  155  git add footer.html 
+  156  git diff --staged
+  157  git commit -m "Update Index and Footer html's"
+  158  git log --oneline
+  159  git diff 3072b0a 55e325e
+  160  git diff branchone branchtwo
+  161  git diff branch branchone branchtwo
+  162  git branch
+  163  git diff branch branchone branchtwo
+  164  git diff branch master footer
+  165  git diff master footer
+  166  git status
+  167  git branch bugfix
+  168  git branch
+  169  git checkout bugfix 
+  170  git branch
+  171  git checkout footer 
+  172  git stash
+  173  git checkout footer
+  174  git branch
+  175  git checkout bugfix
+  176  git branch
+  177  git stash pop
+  178  git stash
+  179  git checkout master
+  180  git stash pop
+  181  git stash list
+  182  git stash
+  183  git stash list
+  184  git reflog
+  185  git branch
+  186  git checkout master
+  187  git checkout bugfix 
+  188  git checkout master
+  189  git status
+  190  git branch
+  191  git status
+  192  git add index.html 
+  193  git commit -m "add the updated index.html"
+  194  git status
+  195  git checkout bugfix
+  196  git add .
+  197  git commit -m "Updated Nav-bar"
+  198  git checkout master
+  199  git commit -am "images added"
+  200  git checkout bugfix 
+  201  git merge master
+  202  git commit -am "about us added"
+  203  git checkout master
+  204  git commit -am "Pricinf Card Added"
+  205  git log --oneline
+  206  git branch
+  207  git checkout bugfix 
+  208  git rebase master
+  209  git branch
+  210  git status
+  211  git commit -am "Add Contact Link in nav-bar"
+  212  git checkout master
+  213  git commit -am "Add Why us section"
+  214  git branch
+  215  git checkout bugfix 
+  216  git commit -am "Add Card info to Index File "
+  217  git branch
+  218  git rebase master
+  219  git add .
+  220  git rebase --continue
+  221  ls -la
+  222  ssh-keygen -t ed25519 -C "anandhaqa@gmail.com"
+  223  clip < ~/.ssh/id_ed25519.pub
+  224  ssh-keygen -t ed25519 -C "anandhaqa@gmail.com"
+  225  clip < ~/.ssh/id_ed25519.pub
+  226  clip < ~/.ssh/id_ed25519.pub
+  227  cd ..
+  228  ls
+  229  cd gitthree
+  230  ls
+  231  pwd
+  232  git status
+  233  git init
+  234  git status
+  235  git commit -am "Add Index File"
+  236  git add .
+  237  git commit -m "Add index file"
+  238  git branch
+  239  git branch -M main
+  240  git branch
+  241  git remote -v
+  242  git remote add origin https://github.com/Anandhaqa/learn-git.git
+  243  git remote -v
+  244  git push origin main
+  245  git status
+  246  git add .
+  247  git commit -m "Add few lines"
+  248  git remote -v
+  249  git push -u origin main
+  250  git status
+  251  git commit -am "Updated"
+  252  git push
+  253  git status
+  254  git add readme.md 
+  255  git commit -m "add readme.md file"
+  256  git push
+  257  cd ..
+  258  ls
+  259  git clone https://github.com/Anandhaqa/TestNg01.git
+  260  ls
+  261  cd TestNg01/
+  262  ls
+  263  git status
+  264  cd ..
+  265  ls
+  266  cd gittwo/
+  267  ls
+  268  ls
+  269  ls -la
+  270  ls
+  271  rm ''$'\033'
+  272  ls
+  273  rm ''$'\033''.pub'
+  274  ls
+  275  ls
+  276  exit
+  277  git status
+  278  git init
+  279  git add .
+  280  git commit -m "Add Object of Instance"
+  281  git status
+  282  git push -u origin master
+  283  git remote -v
+  284  git branch -M main
+  285  git remote add origin https://github.com/Anandhaqa/Java_Codes.git
+  286  git push -u origin main
+  287  git status
+  288  ls
+  289  history
+  290  exit
+  291  ls
+  292  ls -la
+  293  ls
+  294  ls
+  295  history
+  296  history
+  297  pwd
+  298  ls
+  299  git -version
+  300  git status
+  301  git init
+  302  pwd
+  303  path
+  304  cd C:\Users\HP\Desktop\demo\src\main\java\com\example
+  305  ls
+  306  cd..
+  307  cd
+  308  cd
+  309  cd
+  310  cd
+  311  pwd
+  312  ls
+  313  pwd
+  314  cd /e
+  315  ls
+  316  cd
+  317  ls
+  318  pwd
+  319  cd Desktop/
+  320  ls
+  321  cd demo/
+  322  ls
+  323  cd src/main/java/com/example
+  324  ls
+  325  git init
+  326  git status
+  327  git add Launch.java 
+  328  git status
+  329  git commit -m "Browser Launching Code"
+  330  git remote add origin https://github.com/Anandhaqa/Project_2026_Jan.git
+  331  git push -u origin main
+  332  git branch
+  333  git push -u origin master
+  334  cls
+  335  clear
+  336  git status
+  337  git add .
+  338  git commit -m "Codes"
+  339  git push
+  340  ls
+  341  pwd
+  342  git status
+  343  cat LICENSE.txt 
+  344  ls
+  345  ls
+  346  cd usr/
+  347  ls
+  348  cd .
+  349  cd..
+  350  cd..
+  351  ls
+  352  cd
+  353  cd
+  354  cd
+  355  ld
+  356  ls
+  357  cd Postman/
+  358  ls
+  359  cd files/
+  360  ls
+  361  ls -ltr
+  362  cd
+  363  ls
+  364  cd Desktop/
+  365  cd
+  366  cd eclipse-workspace
+  367  ls
+  368  cd Jan_2024/
+  369  ls
+  370  cd src/
+  371  ls
+  372  cd test/
+  373  ls
+  374  cd java
+  375  ls
+  376  cd com/
+  377  ls
+  378  cd pongal/ls
+  379  ls
+  380  cd pongal/
+  381  ls
+  382  cd basepackage/
+  383  ls
+  384  cd in/
+  385  ls
+  386  cat BaseClass.java 
+  387  ls
+  388  cd..
+  389  cd ..
+  390  cd ..
+  391  ls
+  392  cd fbautomatio/
+  393  ls
+  394  cd in/
+  395  ls
+  396  cat LoginPage.java
+  397  cd /eclipse-workspace/
+  398  cd /eclipse-workspace
+  399  cd eclipse-workspace/
+  400  cd
+  401  ls
+  402  cd eclipse/
+  403  ls
+  404  cd java-2023-12/
+  405  ls
+  406  cd eclipse/
+  407  ls
+  408  cd configuration/
+  409  ls
+  410  cd ..
+  411  ls
+  412  cd dropins/
+  413  ls
+  414  cd ..
+  415  cd ..
+  416  cd
+  417  ls
+  418  cd eclipse-workspace-Q-Spider
+  419  ls
+  420  cd practise
+  421  ls
+  422  cd src/
+  423  ls
+  424  cd test/
+  425  ls
+  426  cd java/
+  427  ls
+  428  cd com/
+  429  ls
+  430  cd datepickers/
+  431  ls
+  432  cd in/
+  433  ls
+  434  cat DatPickerUsingSendkeys.java 
+  435  git status
+  436  ls
+  437  history
+  438  ls
+  439  pwd
+  440  ls -ltr
+  441  cd .
+  442  cd ..
+  443  cd
+  444  cd D:\Learnings_June 2026
+  445  cd /D:
+  446  ls
+  447  ls
+  448  cd GIT_Learnings/
+  449  ls
+  450  ls
+  451  cat Demo.txt 
+  452  touch Demo.txt 
+  453  nano Demo.txt 
+  454  cls
+  455  clear
+  456  git --version
+  457  git --version
+  458  git --version
+  459  history
+  460  ls
+  461  cd GIT_Learnings/
+  462  ls
+  463  git status
+  464  history
+  465  clear
+  466  git status
+  467  git branch bug
+  468  git checkout bug
+  469  git checkout -b feature
+  470  git branch
+  471  git push --set-upstream origin login
+  472  clear
+  473  git branch
+  474  git checkout new-bug
+  475  git status
+  476  git push -u origin new-bug
+  477  git status
+  478  git branch
+  479  git pull
+  480  git fetch
+  481  git pull
+  482  git pull
+  483  git status
+  484  git branch
+  485  git fetch
+  486  git branch
+  487  git checkout login 
+  488  git checkout main
+  489  git pull
+  490  git checkout login 
+  491  git merge main
+  492  git add .
+  493  git commit -m 'reademe conflict merged'
+  494  git push
+  495  git merge main
+  496  git add .
+  497  git commit =m "Login Conflict"
+  498  git commit -m "Login Conflict"
+  499  git push
+  500  history
+  501  git add .
+  502  git status
+  503  git reset
+  504  git status
+  505  git add dummy.txt
+  506  git commit -m "Docs: Non-Priority Doc"
+  507  git status
+  508  git push origin main
+  509  git pull
+  510  git status
+  511  git add index.html
+  512  git status
+  513  git status
+  514  git add sample.java
+  515  ls
+  516  ls
+  517  javc Demo.txt java
+  518  javac Demo.txt java
+  519  javac Demo java
+  520  javac Demo.java
+  521  javac Demo.txt java
+  522  java -version
+  523  javac Demo.java
+  524  javac Demo.java
+  525  java Demo
+  526  git status
+  527  git status
+  528  git add Demo.java Demo.class
+  529  git status
+  530  git commit -m "Feat: Added java File"
+  531  git push
+  532  git status
+  533  git diff
+  534  git add Demo.java
+  535  git status
+  536  git commit -m "feat: Added Method in Demo.java"
+  537  git push
+  538  git status
+  539  git diff
+  540  git commit -m "feat: Added Called Method in Main Class in Demo.java"
+  541  git add Demo.java
+  542  git commit -m "feat: Added Called Method in Main Class in Demo.java"
+  543  git push
+  544  git pull
+  545  history > GIT_History.txt
