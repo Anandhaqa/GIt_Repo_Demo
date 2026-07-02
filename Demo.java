@@ -11,10 +11,16 @@ public class Demo{
         System.out.println("Method3 invoked");
     }
     
+     public void devqa(){
+        System.out.println("devqa invoked");
+    }
+
+
     public static void main(String[] args) {
         System.out.println("Verify");
         Demo dd = new Demo();
         dd.method1();
         dd.testqa();
+        dd.devqa();
     }
 }
